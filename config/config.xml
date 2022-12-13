@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="config.xsd"?>
+<sites>
+    <site id='local'>
+        <host>localhost</host>
+        <port>9386</port>
+        <readme> Web service configuration of localhost:9386 </readme>
+    </site>
+
+    <site id='test1'>
+        <host>127.0.0.1</host>
+        <port>8000</port>
+        <readme> Do not use it, since it is only for testing </readme>
+    </site>
+</sites>

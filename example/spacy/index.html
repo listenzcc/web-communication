@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        div.Result {
+            background-color: bisque;
+            padding: 20px;
+            border: 1px solid;
+            overflow-x: scroll;
+            max-height: 600px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>
+            Spacy analysis
+        </h1>
+    </div>
+
+    <div>
+        <div>
+            <textarea id="textarea-1">
+America warned that Iran and Russia are entering a “full-fledged defence partnership” that may include the joint production of drones. Russia will provide fighter jets to Iran and is training its pilots, said a spokesman for America’s National Security Council. In turn Iran is believed to have sent armed drones for Russia’s use in Ukraine. Separately, President Vladimir Putin said he may cut oil output in response to the West’s “stupid” price cap on Russian oil exports.
+            </textarea>
+        </div>
+        <div>
+            <input id="input-1" type="button" value="Submit" />
+        </div>
+        <div>
+            <span>Result</span>
+            <div class="Result" id="div-1-ent"></div>
+            <div class="Result" id="div-1-dep"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="src/after.js"></script>
+</body>
+
+</html>
